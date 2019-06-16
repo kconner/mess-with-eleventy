@@ -1,0 +1,11 @@
+{
+  "name": "mess-with-eleventy",
+  "private": true,
+  "scripts": {
+    "build": "eleventy --input=src --output=dist",
+    "serve": "npm run build -- --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.8.3"
+  }
+}
